@@ -1,1 +1,5 @@
 # Datamining-on-retail-data
+
+In this code I have conducted Machine Learning on Data Mining related to consumer segmentation using a provided retail dataset. Many retailers have found great value in using consumer segmentation algorithms to suggest products to users. To achieve this goal, I used the basket dataset from UCI and installed necessary APIs such as pandas. I have explored the use of Recency, Frequency and Monetary (R_F_M) analysis on the given retail dataset. The aim of this analysis is to identify the best customers quantitatively by analyzing recency, frequency, and monetary factors, which are based on the marketing axiom that "80% of your business comes from 20% of your customers." R_F_M analysis will be utilized to gain business intelligence on consumer segmentation by answering critical questions such as identifying the best customers, customers at the verge of churning, lost customers that require less attention, loyal customers, and customers who are most likely to respond to the current campaign. 
+
+Additional information on R_F_M analysis metrics can be found in the following link: https://www.putler.com/rfm-analysis/
