@@ -13,29 +13,29 @@ The dataset used in this assignment:
 http://archive.ics.uci.edu/ml/datasets/Online+Retail.
 
 Overview:
-● First, we discard the cancelled orders and remove the data rows that do not
+1. First, we discard the cancelled orders and remove the data rows that do not
 have a customer.
-● Post this recency is calculated where we find the max date and calculate the
+2. Post this recency is calculated where we find the max date and calculate the
 difference in days between the max date and other dates.
-● We calculate the frequency by counting the number of times a certain
+3. We calculate the frequency by counting the number of times a certain
 customer appears in a transaction.
-● After calculating the frequency we calculate the total expenditure by
+4. After calculating the frequency we calculate the total expenditure by
 multiplying the unit price with quantity.
-● Post this the monetary is calculated by summing up the total cost for
+5. Post this the monetary is calculated by summing up the total cost for
 individual customers.
-● We then combine frequency, recency and monetary in one table by their
+6. We then combine frequency, recency and monetary in one table by their
 customer ID
-● Post this we declare quantiles and using that, we calculate R_Quartile,
+7. Post this we declare quantiles and using that, we calculate R_Quartile,
 F_Quartile and M_Quartile.
-● Lastly, we combine them together to calculate the final RFM score.
+8. Lastly, we combine them together to calculate the final RFM score.
 
 Categories:
 We divide customer segments in the following categories:
-● Best customers -> RFM score = 444
-● Loyal customers -> F_Quartile = 4
-● Profitable customers -> M_Quartile = 4
-● Verge of churning -> RFM score = 244
-● Lost customers -> RFM score = 111
-● Customers that must be retained -> RFM score = 444 or M_Quartile = 4
-● Customers that are most likely respond to a current campaign -> RFM score
+1. Best customers -> RFM score = 444
+2. Loyal customers -> F_Quartile = 4
+3. Profitable customers -> M_Quartile = 4
+4. Verge of churning -> RFM score = 244
+5. Lost customers -> RFM score = 111
+6. Customers that must be retained -> RFM score = 444 or M_Quartile = 4
+7. Customers that are most likely respond to a current campaign -> RFM score
 = 444 or F_Quartile = 4
